@@ -1,0 +1,242 @@
+(PRVI DIO)
+Koje su funkcije računara?
+- Razmjena podataka, skladištenje podataka, procesiranje podataka.
+Koja je osnovna funkcija modula za upravljanje procesorom?
+- Priključenja sa jednog na drugi proces.
+Koja je osnovna funkcija modula za upravljanje procesima?
+- Stvaranje i uništenje procesa.
+Koje su su glavne osobine modernih OS-a?
+- Object orientated design, symmetric multiprocessing, multithreading, distributed operating system, microkernel.
+Koja je osnovna funkcija za upravljanje memorijom?
+- Zauzimanje i oslobođenje memorije.
+Šta je nit (Thread)?
+- Dio naredbi procesa koje ona povezuje.
+Koji su osnovni moduli OS-a?
+- Moduli za upravljanje fajlovima, moduli za upravljanje memorijom, procesima 1/0 uređajima, procesorom.
+Program koji izvšava komande korisnika je?
+- Interpreter.
+Koja od ponuđenih OS-ova poseduje mikrokernel?
+- Klijent-Server.
+Koji su osnivni djelovi računarskog hardvera?
+- Procesor, hard-disk, ulazno-izlazni uređaji, memorija.
+Koji je program za unos podataka?
+- Editor.
+(DRUGI DIO)
+Iz čega se sastoji proces?
+- Izvršenja, atributa, slike.
+Ako je količina memorije veća sistem multiprogramiranja će biti?
+- Veći.
+Čega više ima u memoriji: deskriptora, procesa ili slika procesa?
+- Deskriptora.
+Šta je to sekvencijoni proces?
+- Proces koji se sastoji samo od jedne niti.
+Koje tehnike se koriste za paralelizaciju procesa?
+- 1/0 paralelizacija, CPU paralelizacija, virtuelizacija.
+Šta je stepen multiprogramiranja?
+- Maksimalan broj slika procesa u memoriji.
+Koliko procesa najviše može da se izvršava u jednom trenutku na jednom pocesu sa dva jezgra?
+- Dva.
+Gdje su smješteni atribut procesa?
+- U deskriptoru.
+Koji načini izvršenja procesa postoje?
+- User, Kernel.
+Kdje mogu biti smještene slike procesa?
+- Na hard disku, u memoriju, u keš memoriju procesa.
+Da li proces može da pređe iz stanja “BLOCKED” u “RUNNING”?
+-Ne, proces treba prvo da bude u stanju “READY”.
+Šta je PID kod procesa?
+- Jednistveni indetifikator procesa.
+Iz čega se sastoji slika procesa?
+- Sistemskog steak, programskog koda, korisničkih podataka.
+Da li se veličina korisničke slike može mijnjati?
+- Ne.
+Da li proces iz stanja “RUNNING” može direktno preći u stanje “BLOCKED SUSPEND”?
+- Ne.
+Kad se novostvoreni proces odmah priključuje na procesor?
+- Kad mu je prioritet veći od procesa stvaraoca.
+Kako se dijele OS prema strukturi?
+- Slojeviti, exo-kerneli, monolitni, virtualne mašine, klijent-server.
+“LONG TERM SCHEDULLING” vrši?
+- Bira procese za “SWAPPING”.
+Niti se mogu izvršavati u?
+- U zaštićenom korisničkom modu, samo u korisničkom modu.
+Označiti bar četri atributa procesa?
+- Vrijeme startovanja procesa, trajanje aktivnosti procesa, stanje, user ID, radni direktorijum.
+Da li broj deskriptora procesa u memoriji može biti veći od sistema multiprogramiranja?
+- Da.
+Gdje su smješteni deskriptori procesa?
+- U memoriji.
+Da bi stepen multiprogramiranja bio što veći, šta bi trebalo promijeniti-povećati?
+- Veličinu memorije (radne).
+Koliko niti može da ima jedan proces?
+- Jednu ili više.
+Šta je proces?
+- Program koji se izvršava u procesoru.
+Gdje se nalaze slike obustavljenih “SUSPEND” procesa?
+- U masovnoj memoriji.
+Koje su osnovne sistemske operacije sloja za upravljanje procesima?
+- Uništenje procesa, stvaranje procesa.
+Da li niti jednog procesa mogu da pristupaju svakoj adresi slike tog procesa?
+- Da.
+Ako je stepen multiprogramiranja manji, računar (OS) će biti?
+- Sporiji.
+(TREĆI DIO)
+Gdje su smješteni baferi?
+- U memoriji.
+Šta je bit map, gdje se koristi bit map?
+- Način evidencije slobodnih blokova kod kontinualnih fajl sistema.
+Koje vrste specijalnih fajlova postoje?
+- Karakterni ili znakovni i blokovski.
+Koji su od navedenih uređaja masnovna memorija gdje se pamte fajlovi?
+- DVD, CD, USB flash, magnetne trake, optički diskovi, hard disk.
+Kad se fajl prenosi u memoriju, da li se samo potrebni blokovi prenose ili još dodatnih?
+- Još dodatnih.
+Šta sadrži direktorijum (folder)?
+- Imena fajlova direktorijuma i njihovih deskriptora.
+Koji su poznati linux file sistemi?
+- Reiserfs, ext3, ext2.
+Kod kojih fajl sistema se može koristiti bit map kao način evidentiranja slobodnih blokova?
+- Kod rasutih fajl sistema i kontinualnih fajl sistema.
+Gdje se koristi pojam prvog i drugog sistema indirekcije?
+- Kod načina evidencije blokova fajla kod rasutih fajl sistema.
+Šta je eksterna fragmentacija?
+- Pojava da su neki od blokova između fajlova nepopunjeni.
+Da li se izborom tipa fajl sistema može izbjeći interna fragmentacija?
+- Ne.
+Šta su atributi fajla?
+- Podaci koji opisuju fajl (datum, vrijeme, ime itd.).
+Specijalni fajlovi služe za?
+- Komunikaciju sa 1/0 uređajuma.
+Ako je veličina bloka masovne memorije 4KB, a treba da pročitamo 20000-ti bit tog fajla, koji blok tog fajla i koji bajt
+iz tog bloka treba pitati?
+- 4 blok i 3161 bajt.
+Jedan operativni sistem (npr. linux) podržava?
+- Više fajl sistema.
+Koji je aktuelni windows-ov fajl sistem?
+- NTFS
+Šta čini jedan fajl?
+- Atributi i podaci
+Kako se fajlovi pamte u masovnoj memoriji?
+- U obliku tačno predefinisanog bloka.
+Kod kojih fajl sistema se javlja eksterna fragmentacija?
+- Samo kod kontinualnih fajlova.
+Koje su mane kontinualnih fajlova?
+- Potreba poznavanja veličine fajla prije snimanja, eksterna fragmentacija, problem sa internom kompresijom.
+Šta se prvo zapisuje kad se fajl snima?
+- Evidencija slobodnih blokova.
+Koji je opseg standardnog bloka masovne memorije?
+- 5-8 kB.
+Koliki je standardni blok masovne memorije u NTFS-u?
+- 4 kB.
+Šta je interna fragmentacija?
+- Pojava da je zadnji blok fajla nepopunjen.
+(ČETVRTI DIO)
+Prijavljeni ste na računar kao korisnik ETF nad fajlom domaći.txt.
+- Nalog ETF ima dozvolu read i write.
+- Grupa Users(kojoj pristupaju svi korisnici) ima pravo List Folder Contents.
+- Grupa Everyone ima read zabranu.
+- Nalog Administrator ima dozvolu read and execute.
+Koja prava imate nad domaci.txt?
+- Write and list folder contents.
+Ako je sasadržaj BR 10000, a GR 5000, koja će biti fizička adresa ako je logička 1000?
+- 11000.
+Alat u W/N OS-u pomoću kojeg se vrši monitoring aktivnih aplikacija i procesa je?
+- Task Manager.
+Da li se brisanjem korisničke grupe brišu korisnički nalozi koji su njeni članovi?
+- Ne.
+Da li se prilikom zauzimanja radne memorije javlja ekstremna fragmentacija?
+- Da.
+Da li se korisnički proces u nepriviligovanom režimu rada mogu da mijenjaju sadržaj graničnog i baznog registra?
+- Ne.
+Ulogovani ste kao korisnik ETF na Windows XP. Putanja do vašeg home foldera je?
+- C/Documents and Settings/ETF.
+Šta je compaction?
+- Sabijanje slika procesa radi ekstremne fragmentacije.
+Da li se prilikom zauzimanja radne memorije javlja interna fragmentacija?
+- Jedino ako se dužina zauzetih zona sastoji od fiksnih segmenta (recimo stepen broja dva).
+Koje vrste adresa prostoje pri adresiranju memorije?
+- Logičke i fizičke adrese.
+Šta se omogućuje primjenom pune segmentacije slike procesa?
+- Dinamičko linkovanje-povezivanje i djeljenje promijenljivih.
+Napravili ste tekstualni fajl u koji ste upisali jedan karakter. Koliko ovaj fajl zauzima memorije na disku?
+- 4kB.
+Napravili ste tekstualni fajl u koji ste upisali jedan karakter. Kolkoa je stvarna memorija ovog fajla?
+- 1B.
+Da li se fajl može istovremeno i kriptovati i kompresovati (koristeći windows-ove ugrađene opcije)?
+- Dozvoljena je samo enkripcija ili samo korišćenja fajla (ne može oboje istovremeno).
+Kako se zovu dva registra pomoću kojih se pretvaraju fizičke memorijske adrese u logičke?
+- Bazni i granični registar.
+Alat u win OS-u pomoću kojeg se mogu kreirati lokalne grupe i nalozi je?
+- Task Manager.
+Šta je swapping?
+- Zamjena slika procesa između radne memorije i storage-a.
+Šta sadrži granični registar?
+- Najveću dozvoljenu logičku adresu.
+Šta sadrži bazni registar?
+- Adresu koja se dodaje na logičku da bi se dobila fizička.
+Kako se najčešće vrši evidencija slobodne radne memorije?
+- Pomoću liste slobodnih odsječka.
+Na koliko segmenta se dijeli slika procesa?
+- Tri.
+Da li se može obrisati ugrađeni nalog guest?
+- Može se ugasit a ne i obrisati.
+Šta se smiješta na radnu memoriju računara?
+- Operativni sistem i slike procesa.
+(DODATNA PITANJA ZA KOLOKVIJUM)
+Šta je OS?
+- Program koji je interfejs između korisnika i računara. Program koji upravlja resursima računara.
+Koje su funkcije Os-a?
+- Upravljanje fajlovima, upravljanje procesima, zaštita sistema, upravljanje memorijom, upravljanje 1/0 uređajima,
+upravljanje procesorom.
+Ako je količina memorija veća, stepen multiprogramiranja će biti?
+- Veći.
+Koja su stanja procesa?
+- Running, Ready, Blocked.
+Da li proces iz stanja Running može direktno preći u stanje Blocked?
+- Da.
+Da li se sadržaj baznog i graničnog registra može mijenjati?
+- Da, ali samo procesi u privilegovanom režimu rada mogu mijenjati njihov režim rada.
+Da li korisnik nasljeđuje dozvole od grupe u kojoj pripada?
+- Da, uvjek.
+Šta je Virtual PC?
+- Program koji služi za simuliranje rada operativnig sistema.
+Nakon kopiranja fajla kol.doc u folder DIR, nad korisničkim fajlom kol.doc:
+- Imaćete iste korisničke dozvole kao što imate dozvole nad folderom DIR.
+Ako je proces iskoristio veoma mali zadnji kvantum, njemu se prioritet?
+- Smanjuje.
+Šta ograničava veličinu slike procesa?
+- Veličina spoljašnje memorije.
+Na koji način se može oduzeti CPU procesima kod windows OS-a?
+- Proces se može oduzeti CPU samo ako se pojavi proces većeg prioriteta.
+Kada se procesor priključuje na proces većeg prioriteta?
+- Odmah.
+Koje informacije o aktivnoj aplikaciji su dostupne u TASK MANAGER-u?
+- Indetifikator procesa (PID), zauzetost CPU, zauzetost memorije i broj niti.
+Korisnik ETF ima pravo write nad fajlom kol.doc. Grupa Everyone ima dozvolu read a grupa Guest nema nikakva
+prava nad fajlom. Koja prava ETF ima nad fajlom kol.doc?
+- Read i Write.
+Šta je kompajler?
+- Program koji provodi programski jezik u fajl koji može da se izvršava.
+Šta je trag (trace)?
+- Redoslijed u kojem se izvršavaju naredbe programa.
+Šta je clustering?
+- Grupisanje više nezavisnih računara radi izvršavanja neke aplikacije i sigurnosti.
+Softver dijelimo na?
+- Aplikativni i operativni.
+Fajl se sastoji od?
+- Sadržaja (podataka) i atributa.
+Koja je osnovna uloga modula za upravljanje 1/0 uređajima?
+- Ima operacije čitanja i pisanja.
+Šta je swapper?
+- Proces dugoročni raspoređivač.
+Short Term Schedulling:
+- Proces na koga se priključuje procesor.
+Šta je hard disk?
+- Medijum za skladištenje memorije.
+Šta je pramen konzistentnosti?
+- Ako samo jedna od promijenjenih kopija dospije u masovnu memoriju.
+Zašto se vrši prebacivanje blokova iz radne u masovnu memoriju, iz masovne u radnu?
+- Zbog čuvanja, zbog obrade.
+Prvi dio logičke adrese prestavlja adresu segmenta, a drugi dio lokaciju u segmentu.
+Koje lokacije zauzima OS?
+- Sa početka (lokacije za tabelu prekida) i eventualno sa kraja (registri kontrolera).
